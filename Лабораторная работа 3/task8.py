@@ -6,7 +6,7 @@ increase = 0.05
 month = 0  # количество месяцев, которое можно прожить
 
 #
-while money_capital >= spend:
+while money_capital + salary >= spend:
     money_capital = money_capital - spend + salary
     spend = spend * 1.05
     month += 1
